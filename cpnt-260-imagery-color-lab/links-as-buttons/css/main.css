@@ -1,24 +1,37 @@
 /* Body text */
 body {
-
+  background-color: hsl(250, 81%, 8%);
+  color: hsl(208, 100%, 97%);
 }
-
+p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 /* Call-to-action container */
 .cta {
-  
+}
+
+/* Call-to-action button global */
+.cta a {
+  text-decoration: none;
+  background-color: rgb(37, 37, 131);
+  padding: 1%;
+  border-radius: 20px;
+  outline: 2px solid rgb(131, 105, 105);
 }
 
 /* Call to Action "button" */
-.cta a, .cta a:visited {
-  
+.cta a,
+.cta a:visited {
+  color: hsl(295, 100%, 70%);
 }
 
 /* Hover state */
 .cta a:hover {
-  
+  color: hsl(295, 100%, 86%);
 }
 
 /* Click state */
 .cta a:active {
-  
+  color: hsl(133, 58%, 65%);
 }
