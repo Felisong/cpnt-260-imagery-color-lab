@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 22px;
   line-height: 1.8;
+  color: #fcb900;
+  background-color: #222222;
 }
 
 h1,
@@ -17,6 +19,10 @@ h6 {
 section {
   max-width: 85ch;
   margin: auto;
+}
+.marinating {
+  background-color: #682058;
+  padding: 1%;
 }
 
 .headerimage {
